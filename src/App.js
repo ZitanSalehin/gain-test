@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Barchart from './components/Chart/BarChart';
+import Piechart from './components/Chart/PieChart';
+import Form from './components/Form/Form';
+import Navbar from './components/Navbar/Navbar';
+import Render from './components/Render/Render';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main'>
+      <Navbar></Navbar>
+      <div className='box__component'>
+      <Piechart></Piechart>
+      <Barchart></Barchart>
+      </div>
+
+      <Form></Form>
+      <Render></Render>
     </div>
   );
 }

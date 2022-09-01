@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+p, h1, h2, h3, h4, h5, h6, a, li, ul {
+  font-family: "Poppins", sans-serif;
+  color: #74777B;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.source {
   display: flex;
-  flex-direction: column;
+}
+
+.source__title {
+  position: absolute;
+  left: 100px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.company__info {
+  margin-top: 140px;
+  margin-left: -200px;
+}
+
+.daraz {
+  width: 400px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+}
+.daraz p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 2px;
+}
+.daraz h2 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 24px;
+  margin: 2px;
+}
+.daraz .square__green {
+  margin: 5px 10px 5px -10px;
+  width: 15px;
+  height: 15px;
+  background-color: #84AF27;
 }
 
-.App-link {
-  color: #61dafb;
+.bikroy {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.bikroy p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 2px;
+}
+.bikroy h2 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 24px;
+  margin: 2px;
+}
+.bikroy .square__cyan {
+  margin: 5px 10px 5px -10px;
+  width: 15px;
+  height: 15px;
+  background-color: #0095A0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pickaboo {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
+.pickaboo p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 2px;
+}
+.pickaboo h2 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 24px;
+  margin: 2px;
+}
+.pickaboo .square__yellow {
+  margin: 5px 10px;
+  width: 15px;
+  height: 15px;
+  background-color: #FFC239;
+}/*# sourceMappingURL=App.css.map */
