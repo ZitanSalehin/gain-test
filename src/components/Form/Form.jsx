@@ -28,11 +28,14 @@ export default function Form() {
                 </div>
                 </div>
 
-                {/* <select className='form-input' id='input__group' style={{color:"#dfdfdf"}}>
-                    <option value="Investment" defaultValue >Tag</option>
-                    <option value="Expense">Best Value</option>
-                    <option value="Savings">Best Performance</option>
-                </select> */}
+                <div className="input-group">
+                <p>Tag</p>    
+                <select className='form-input' id='input__group' style={{color:"#263233", marginTop:"10px"}}>
+                    <option value="Investment" defaultValue style={{color:"#263233"}}>Best Performance</option>
+                    <option value="Expense" style={{color:"#263233"}}>Best Value</option>
+                    <option value="Savings" style={{color:"#263233"}}>Best Camera</option>
+                </select>
+                </div>
 
                 <div className="input-group">
                     <p>Price</p>
